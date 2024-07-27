@@ -1,0 +1,17 @@
+.card-div{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 2rem;
+}
+.card{
+    background-color: rgb(133, 204, 236);
+    padding: 0.5vw 0.5vw;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.card #name{
+    margin: auto 0;
+    font-weight: 300;
+    margin-right: 10px;
+}
